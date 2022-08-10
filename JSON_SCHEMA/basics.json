@@ -1,0 +1,63 @@
+//{"comment": //"The schema keyword states that this schema is written according to a specific draft of the standard and used for a variety of reasons, primarily version control 
+//The id keyword defines a URI for the schema and the base URI that other URI references within the schema are resolved against
+//The title and description annotation keywords are descriptive only. They do not add constraints to the data being validated. The intent of the schema is stated with these two keywords.
+//The type validation keyword defines the first constraint on our JSON data and in this case it has to be a JSON Object"}
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/product.schema.json",
+    "title": "Product",
+    "description": "A product in the catalog",
+    "type": "object"
+}
+
+//---------------------------------------Defining Properties for a USER ----------------------------------------
+{
+  "$schema": "User Schema",
+  "$id": "https://something.com/schemas/user",
+  "title": "User Data",
+  "description": "A User from XYZ Company",
+  "type": "object",
+  "properties": {
+    "userId": {
+      "description": "The unique identifier for a product",
+      "type": "integer"
+    },
+    "firstName":{
+      "description": "The first name of user",
+      "type": "string"
+    },
+    "lastName":{
+      "description": "The last name of user",
+      "type": "string"
+    },
+    "age":{
+      "description": "Contains the age of a user",
+      "type": "integer"
+    },
+    "gender":{
+      "type": "string",
+            "uniqueItems":true,
+              "enum":["m","f"]
+    },
+    "phone":{
+      "description":"It will contain user mobile number",
+      "type":"integer",
+      "minLength":10,
+      "maxLength":10,
+      "uniqueItems":true
+    },
+    "email":{
+      "description":"It will contain user email",
+      "type":"string",
+      "format":"email",
+      "minLength":3,
+      "maxLength":25,
+      "uniqueItems":true
+    }
+
+  },
+  "required": [ "userId","firstName","lastName","age","phone","gender","email" ]
+}
+
+// --------------------------------------------------above one is verified-----------------------------------------------------
+
