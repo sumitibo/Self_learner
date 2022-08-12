@@ -2,9 +2,9 @@ const app = require("fastify")({ logger: false });//logger is default true,but I
 const port = process.env.PORT || 7448;
 
 
-app.register(require("fastify-swagger"),{
+app.register(require("fastify-swagger"),{ //registered swagger to automate the api endpoint docs;
   exposeRoute: true,
-  routePrefix: '/docs',
+  routePrefix: '/userDocs',
   swagger:{
     info:{title:"fastify-users-api"}
   }

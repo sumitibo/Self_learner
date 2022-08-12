@@ -1,8 +1,13 @@
-const {getAllUsers,getSingleUser} = require("../controller/users.controller")
+const {
+  getAllUsers,
+  getSingleUser,
+  addUser,
+} = require("../controller/users.controller");
 
 //Options to configure the schemas or we can say like validation the responses;
 
-const userProperties = { //destructuring the common properties to avoid repeating the same;
+const userProperties = {
+  //destructuring the common properties to avoid repeating the same;
   type: "object",
   properties: {
     id: { type: "string" },
@@ -23,7 +28,7 @@ const allUserGetOptions = {
       },
     },
   },
-  handler:getAllUsers
+  handler: getAllUsers,
 };
 
 const singleUserGetOptions = {
@@ -38,7 +43,45 @@ const singleUserGetOptions = {
       },
     },
   },
-  handler:getSingleUser
+  handler: getSingleUser,
+};
+
+const newUserOptions = {
+  //done nesting here like user we can also add some more data in response;
+  schema: {
+    body: {
+      type: "object",
+      properties: {
+        first_name: { type: "string", minLength: 3, maxLength: 15 },
+        last_name: { type: "string", minLength: 3, maxLength: 15 },
+        email: {
+          description: "It will contain user email",
+          type: "string",
+          format: "email",
+          minLength: 3,
+          maxLength: 25,
+          uniqueItems: true,
+        },
+        gender: {
+          type: "string",
+          uniqueItems: true,
+          enum: ["m", "f"],
+        },
+        phone: {
+          description: "It will contain user mobile number",
+          type: "integer",
+          minLength: 10,
+          maxLength: 10,
+          uniqueItems: true,
+        },
+      },
+      required:["phone","first_name","last_name","email","gender"]
+    },
+    response: {
+      201: userProperties,
+    },
+  },
+  handler: addUser,
 };
 
 const userRoutes = (app, options, done) => {
@@ -48,6 +91,10 @@ const userRoutes = (app, options, done) => {
   //get a single specific user with the help of ID passed in params;
 
   app.get("/singleUser/:id", singleUserGetOptions);
+
+  //post a new user to the database
+
+  app.post("/newUser", newUserOptions);
 
   done();
 };
