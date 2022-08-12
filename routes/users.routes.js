@@ -43,11 +43,11 @@ const singleUserGetOptions = {
 
 const userRoutes = (app, options, done) => {
   //get all users
-  app.get("/", allUserGetOptions);
+  app.get("/allUsers", allUserGetOptions);
 
   //get a single specific user with the help of ID passed in params;
 
-  app.get("/user/:id", singleUserGetOptions);
+  app.get("/singleUser/:id", singleUserGetOptions);
 
   done();
 };
