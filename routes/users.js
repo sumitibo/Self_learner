@@ -2,22 +2,26 @@ const users = require("../items");
 
 //Options to configure the schemas or we can say like validation the responses;
 
+const userProperties ={
+    type: "object",
+    properties: {
+      id: { type: "string" },
+      first_name: { type: "string" },
+      last_name: { type: "string" },
+      email: { type: "string" },
+      gender: { type: "string" },
+      phone: { type: "integer" }, //we can control the numeric values here like we can convert id to string or integer as well as pgone numbers,pincode also;
+    }
+  }
+
+
+
 const allUserGetOptions = {
   schema: {
     response: {
       200: {
         type: "array",
-        items: {
-          type: "object",
-          properties: {
-            id: { type: "integer" },
-            first_name: { type: "string" },
-            last_name: { type: "string" },
-            email: { type: "string" },
-            gender: { type: "string" },
-            phone: { type: "integer" }, //we can control the numeric values here like we can convert id to string or integer as well as pgone numbers,pincode also;
-          },
-        },
+        items: userProperties
       },
     },
   },
@@ -30,20 +34,7 @@ const singleUserGetOptions = {
       200: {
         type: "object",
         properties: {
-          user: {
-            type: "object",
-            properties: {
-              id: { type: "string" },
-              first_name: { type: "string" },
-              last_name: { type: "string" },
-              email: { type: "string" },
-              gender: { type: "string" },
-              phone: { type: "integer" }, //we can control the numeric values here like we can convert id to string or integer as well as pgone numbers,pincode also;
-            },
-          },
-          userParent: {
-            type: "object",
-          },
+          user:userProperties
         },
       },
     },
