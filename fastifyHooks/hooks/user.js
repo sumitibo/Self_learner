@@ -1,17 +1,30 @@
+const jwt = require('jsonwebtoken');
+
+function verifyToken(token) {
+  return new Promise(function (resolve, reject) {
+      jwt.verify(token,process.env.JWT_SECRET_KEY,function (error, user) {
+          if(error) return reject(error);
+        
+          return resolve(user);
+      })
+  })
+}
+
 async function checkAuthentication(req,reply) {
     //we can check the authentication here like we can extractt the bearer token and get match with jwt;
-    if(req.raw.url === '/user') reply.status(400).send("Site is under maintenance");
-    console.log('Entered to onRequest custom hook',req.raw.url);
-    console.log('Client IP address is:', req.socket.remoteAddress);
-    const user = { //attaching the finded user 
-      id:1234567890,
-      name:"Sumit Singh",
-      email:"sumit.kumar@ibo.com",
-      username:"sumitibo",
-      phone:8507547919
+    if(req.raw.url !== '/newUser') {
+         //getting the bearer token from the response cookies 
+         const bearerToken = req.headers.authorization;
+         console.log(bearerToken);
+         //If not we will throw an error
+         if(!bearerToken || !bearerToken.startsWith('Bearer ')) return res.status(400).send("Please provide a bearer token");
+         
+         const token = bearerToken.split(' ')[1];
+         const {user} = await verifyToken(token);
+         req.user = user
     }
-  
-    req.user = user;
+    console.log('Entered to onRequest custom hook',req.raw.url);
+    console.log('Client IP address is:', req.socket.remoteAddress)
   }
 
   module.exports = {

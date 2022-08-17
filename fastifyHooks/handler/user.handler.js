@@ -1,6 +1,6 @@
-const {generateTokenForNewUser} = require('../controllers/user.controller');
+const {generateTokenForNewUser,checkuser} = require('../controllers/user.controller');
 const {newUserProperties} = require('../schemas/user.schema');
-
+const {tokenValidator} = require('../utils/newToken');
 
 const createNewUser = {
     schema:{
@@ -18,6 +18,27 @@ const createNewUser = {
     handler:generateTokenForNewUser
 }
 
+const checkUser ={
+    schema:{
+        response:{
+            200:{
+                properties:{
+                    status:{type:'string'},
+                    user:{
+                        type:'object',
+                        properties:{
+                            user:{type:'string'},
+                            iat:{type:'integer'},
+                        }
+                    }
+                }
+            }
+        }
+    },
+    preHandler:[tokenValidator],
+    handler:checkuser
+}
+
 module.exports ={
-    createNewUser
+    createNewUser,checkUser
 }
