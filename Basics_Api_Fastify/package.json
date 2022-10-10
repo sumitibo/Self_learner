@@ -8,7 +8,7 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "script1": "node convertExcelToJsonScript1",
+    "script1": "node convertExcelToJsonScript1 && node finalData.js  && node finalError.js",
     "script2": "node sqlQueryToUpdateMerchandisingCategories"
   },
   "keywords": [],

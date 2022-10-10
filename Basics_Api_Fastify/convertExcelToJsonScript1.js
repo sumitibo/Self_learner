@@ -2,6 +2,7 @@ const xlsx = require("xlsx");
 const fs = require("fs");
 const axios = require("axios");
 const allData = [];
+const errorData = [];
 
 function convertExcelFileToJsonUsingXlsx() {
   const file = xlsx.readFile("./Data.xlsx");
@@ -68,7 +69,13 @@ function checkForDifferencesOfAttributes(manipulatedData) {
   manipulatedData.forEach((item) => {
     axios
       .get(
-        `http://localhost:4444/v1/categories/merchandising/${item.category_id}?catalog_version=ONLINE&include_attribute_lovs=true`
+        `https://services.ibo.com/catalog/v1/categories/merchandising/${item.category_id}?catalog_version=ONLINE`,
+        {
+          headers: {
+            Authorization:
+              "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkFBcU9GbzVILUhSek9VRl9ENVhZVyJ9.eyJpc3MiOiJodHRwczovL2Vib21hcnQudXMuYXV0aDAuY29tLyIsInN1YiI6IlRnM21kc1FITGtUSE1CZUlWb01ReGI4QnUxTjVLWmtFQGNsaWVudHMiLCJhdWQiOiJodHRwczovL3NlcnZpY2VzLmliby5jb20iLCJpYXQiOjE2NjM4NDgwMTIsImV4cCI6MTY2NjQ0MDAxMiwiYXpwIjoiVGczbWRzUUhMa1RITUJlSVZvTVF4YjhCdTFONUtaa0UiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.saDYua0GBGI4puqIjz2mjThScKB5NlRtJ8aOPF3qiagCj9ckBigsJW6r_jt0qgIcbos5qhpV6VaidgJLCAYRZ6Ilr5x4_mPxbE_mMihwAKtAEg-k9j-PqwUSwTQmc9rmE0w5jJAo-ryIP-bnXAg3u3qRU3VmT2E_jjlusD3Fa9gSbU34Vjgt8zZRtt4I_ialobbzTI1Wcx3obL2mVeH-16VqLxeWvsKwukxuW0xZybcN_CxRZGMNhY1jJWjH8dn23xAbfG0vq-2iZ4XbuYn3fWiDeAARHphCfE2hrvMpCI15e1FkOLTVZ0uxx9N_Esz8qpw5PRv08bWuP80DzfiLdA",
+          },
+        }
       )
       .then(function (response) {
         const getter = [];
@@ -80,6 +87,7 @@ function checkForDifferencesOfAttributes(manipulatedData) {
           const found = getter.indexOf(ele.code);
           if (found !== -1) {
             ele.type = getter[found + 1];
+            allData.push(item);
           } else {
             console.log(
               "EXISTING DATA - FOR CAT_ID",
@@ -88,17 +96,28 @@ function checkForDifferencesOfAttributes(manipulatedData) {
               "DATA GOING TO WRITE IN PROD",
               item.default_variant_attributes
             );
+            errorData.push({
+              category_id: response.data.category_id,
+              existing: response.data.default_variant_attributes,
+              writing: item.default_variant_attributes,
+            });
           }
         });
-        // fs.appendFileSync("data.json", JSON.stringify(item));
-        allData.push(item);
+        
       })
       .then(async function () {
         fs.writeFile("data.json", JSON.stringify(allData), function (err) {
           if (err) throw err;
         });
+        fs.writeFile(
+          "errorData.json",
+          JSON.stringify(errorData),
+          function (err) {
+            if (err) throw err;
+          }
+        );
       })
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err, "ERROR"));
   });
 }
 

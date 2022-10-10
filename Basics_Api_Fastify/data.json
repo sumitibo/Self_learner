@@ -1,56 +1,1921 @@
 [
-  {
-    "category_id": 101012,
-    "default_variant_attributes": [
-      {
-        "group": "specs",
-        "code": "PACK_OF",
-        "position": 0,
-        "type": "CORE_ATTRIBUTES"
-      },
-      { "group": "specs", "code": "SIZE", "position": 1, "type": "ATTRIBUTES" },
-      {
-        "group": "specs",
-        "code": "COLOR",
-        "position": 2,
-        "type": "CORE_ATTRIBUTES"
-      }
-    ]
-  },
-  {
-    "category_id": 101011,
-    "default_variant_attributes": [
-      {
-        "group": "specs",
-        "code": "PACK_OF",
-        "position": 0,
-        "type": "CORE_ATTRIBUTES"
-      },
-      {
-        "group": "specs",
-        "code": "COLOR",
-        "position": 1,
-        "type": "CORE_ATTRIBUTES"
-      },
-      { "group": "specs", "code": "SIZE", "position": 2, "type": "ATTRIBUTES" }
-    ]
-  },
-  {
-    "category_id": 101013,
-    "default_variant_attributes": [
-      { "group": "specs", "code": "SIZE", "position": 0, "type": "ATTRIBUTES" },
-      {
-        "group": "specs",
-        "code": "PACK_OF",
-        "position": 1,
-        "type": "CORE_ATTRIBUTES"
-      },
-      {
-        "group": "specs",
-        "code": "COLOR",
-        "position": 2,
-        "type": "CORE_ATTRIBUTES"
-      }
-    ]
-  }
+    {
+        "category_id": 101010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101011,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "thickness_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101012,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 101810,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 102010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 102014,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111011,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "material_drop",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111710,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "volume_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111810,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 111910,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "thickness_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 112010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "wattage",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121015,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "wattage",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121021,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "wattage",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121035,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121036,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "voltage",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121037,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "phase_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121038,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "needle_length_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121040,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "blade_size_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "pack_of",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121121,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121411,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121412,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121413,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121414,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121416,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 121610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "step_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131014,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131211,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131711,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131714,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131810,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 131910,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132013,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132411,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132414,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 132610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_code_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "ebo_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 151710,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161014,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161017,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161214,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161314,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161315,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161316,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161319,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "finish_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161320,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161416,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161418,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161610,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 161710,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171011,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "colour_temperature_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "colour_temperature_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171112,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "colour_temperature_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171211,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171213,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171215,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171312,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "colour_temperature_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 171510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_consumption_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "battery_type",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "pack_of",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181111,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "category_id": 181112,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current_main_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current_generator_md",
+                "position": 2,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "no_of_ways_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181211,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "module_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181212,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "poles_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181311,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181313,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "module_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181412,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "module_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181413,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "type_drop",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181414,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181415,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "socket_type",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181418,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181419,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181420,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "module_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181421,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "module_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181423,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "rated_current",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181512,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "product_type_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181710,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "effective_against_class_of_fire_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "extinguisher_medium_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181711,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "type_of_detector_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181810,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "capacity_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181811,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "rated_capacity_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181812,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "stabilizing_range_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181910,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181912,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "core",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181913,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "radio_guage_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "length_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181914,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 0,
+                "type": "CORE_ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "length_md",
+                "position": 1,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 181915,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "number_of_pairs_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 182010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "tank_capacity_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191110,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191210,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "capacity_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            },
+            {
+                "group": "specs",
+                "code": "brand_color",
+                "position": 1,
+                "type": "CORE_ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191211,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "connection_size_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191310,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "power_rating_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191314,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "connection_size_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191410,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "item_weight",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191411,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191412,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191413,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191510,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "shape_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191511,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191512,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191515,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "inlet_size_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191516,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "meter_size_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191517,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191518,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "length_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 191519,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "length_md",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 201010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 201011,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 201013,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 201014,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    },
+    {
+        "category_id": 211010,
+        "default_variant_attributes": [
+            {
+                "group": "specs",
+                "code": "ebo_size",
+                "position": 0,
+                "type": "ATTRIBUTES"
+            }
+        ]
+    }
 ]
