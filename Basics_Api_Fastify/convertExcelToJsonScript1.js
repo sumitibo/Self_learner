@@ -33,21 +33,18 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
 
     if (variant["Variant 1"]) {
       variant_attributes.push({
-        group: "specs",
         code: variant["Variant 1"],
         position: 0,
       });
     }
     if (variant["Variant 2"]) {
       variant_attributes.push({
-        group: "specs",
         code: variant["Variant 2"],
         position: 1,
       });
     }
     if (variant["Variant 3"]) {
       variant_attributes.push({
-        group: "specs",
         code: variant["Variant 3"],
         position: 2,
       });
@@ -61,6 +58,7 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
       manipulatedData.push(payload);
     }
   });
+
 
   checkForDifferencesOfAttributes(manipulatedData);
 };
@@ -79,14 +77,18 @@ function checkForDifferencesOfAttributes(manipulatedData) {
       )
       .then(function (response) {
         const getter = [];
+        const getter2=[];
         response.data.default_variant_attributes.map((item) => {
           getter.push(item.code, item.type);
+          getter2.push(item.code, item.group);
+
         });
 
         item.default_variant_attributes.map((ele) => {
           const found = getter.indexOf(ele.code);
           if (found !== -1) {
             ele.type = getter[found + 1];
+            ele.group = getter2[found + 1];
             allData.push(item);
           } else {
             console.log(

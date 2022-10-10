@@ -3,16 +3,16 @@
         "category_id": 101010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Carpet Mat Carpet Tiles"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Carpet Mat Carpet Tiles"
             }
         ]
     },
@@ -20,16 +20,16 @@
         "category_id": 101011,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Carpet Mats Artificial Grass"
             },
             {
-                "group": "specs",
                 "code": "thickness_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Carpet Mats Artificial Grass"
             }
         ]
     },
@@ -37,16 +37,16 @@
         "category_id": 101012,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Carpet Mats Mat"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Carpet Mats Mat"
             }
         ]
     },
@@ -54,16 +54,16 @@
         "category_id": 101110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Floor Deck"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Floor Deck"
             }
         ]
     },
@@ -71,10 +71,10 @@
         "category_id": 101210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Laminate Flooring"
             }
         ]
     },
@@ -82,10 +82,10 @@
         "category_id": 101310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Vinyl Flooring"
             }
         ]
     },
@@ -93,16 +93,16 @@
         "category_id": 101410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Flooring Wall Cladding"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Flooring Wall Cladding"
             }
         ]
     },
@@ -110,10 +110,10 @@
         "category_id": 101610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Transition Strip And Profile"
             }
         ]
     },
@@ -121,16 +121,16 @@
         "category_id": 101810,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "tiles"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "tiles"
             }
         ]
     },
@@ -138,10 +138,10 @@
         "category_id": 102010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -149,10 +149,10 @@
         "category_id": 102014,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Tiles Tools"
             }
         ]
     },
@@ -160,22 +160,22 @@
         "category_id": 111010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cabinet Hinges"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cabinet Hinges"
             }
         ]
     },
@@ -183,22 +183,22 @@
         "category_id": 111011,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cabinet Hardware"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cabinet Hardware"
             }
         ]
     },
@@ -206,22 +206,22 @@
         "category_id": 111110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Door Hardware"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Door Hardware"
             }
         ]
     },
@@ -229,22 +229,22 @@
         "category_id": 111210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Kitchen Hardware"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Kitchen Hardware"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Kitchen Hardware"
             }
         ]
     },
@@ -252,22 +252,22 @@
         "category_id": 111310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wardrobe Sliding"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wardrobe Sliding"
             }
         ]
     },
@@ -275,22 +275,22 @@
         "category_id": 111410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Fasteners"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Fasteners"
             }
         ]
     },
@@ -298,22 +298,22 @@
         "category_id": 111510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Others Hardware"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "material_drop",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Others Hardware"
             }
         ]
     },
@@ -321,10 +321,10 @@
         "category_id": 111610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Glass Fittings And Hardware"
             }
         ]
     },
@@ -332,10 +332,10 @@
         "category_id": 111710,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "volume_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Safes"
             }
         ]
     },
@@ -343,10 +343,10 @@
         "category_id": 111810,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Signs"
             }
         ]
     },
@@ -354,16 +354,16 @@
         "category_id": 111910,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Rope"
             },
             {
-                "group": "specs",
                 "code": "thickness_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Rope"
             }
         ]
     },
@@ -371,16 +371,16 @@
         "category_id": 112010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Curtain Hardware"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Curtain Hardware"
             }
         ]
     },
@@ -388,10 +388,10 @@
         "category_id": 121010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "wattage",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Drills"
             }
         ]
     },
@@ -399,10 +399,10 @@
         "category_id": 121015,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "wattage",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cutting Power Tools"
             }
         ]
     },
@@ -410,10 +410,10 @@
         "category_id": 121021,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "wattage",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Other Power Tools"
             }
         ]
     },
@@ -421,10 +421,10 @@
         "category_id": 121035,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Vacuum Cleaner"
             }
         ]
     },
@@ -432,10 +432,10 @@
         "category_id": 121036,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "voltage",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Impact Wrench"
             }
         ]
     },
@@ -443,16 +443,16 @@
         "category_id": 121037,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "phase_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Weilding Machine"
             },
             {
-                "group": "specs",
                 "code": "rated_current",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Weilding Machine"
             }
         ]
     },
@@ -460,10 +460,10 @@
         "category_id": 121038,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "needle_length_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Concrete Vibrator"
             }
         ]
     },
@@ -471,10 +471,10 @@
         "category_id": 121040,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "blade_size_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tools Chain Saw"
             }
         ]
     },
@@ -482,10 +482,10 @@
         "category_id": 121110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "pack_of",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -493,10 +493,10 @@
         "category_id": 121121,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Power Tool Acc Glue Stick"
             }
         ]
     },
@@ -504,10 +504,10 @@
         "category_id": 121210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -515,10 +515,10 @@
         "category_id": 121310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Garden Tools Variant"
             }
         ]
     },
@@ -526,10 +526,10 @@
         "category_id": 121410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Safety Equipment Protective Eyewear"
             }
         ]
     },
@@ -537,10 +537,10 @@
         "category_id": 121411,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Safety Equipment"
             }
         ]
     },
@@ -548,10 +548,10 @@
         "category_id": 121412,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Safety Equipment Head Protection"
             }
         ]
     },
@@ -559,10 +559,10 @@
         "category_id": 121413,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Safety Equipment Hearing Protection"
             }
         ]
     },
@@ -570,10 +570,10 @@
         "category_id": 121414,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Safety Equipment Safety Vest"
             }
         ]
     },
@@ -581,10 +581,10 @@
         "category_id": 121416,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Safety Equipment Shoe Glove"
             }
         ]
     },
@@ -592,10 +592,10 @@
         "category_id": 121610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "step_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Ladders"
             }
         ]
     },
@@ -603,16 +603,16 @@
         "category_id": 131010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Paint Ext Int Color"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Paint Ext Int Color"
             }
         ]
     },
@@ -620,10 +620,10 @@
         "category_id": 131014,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Paint Ext Int Base"
             }
         ]
     },
@@ -631,10 +631,10 @@
         "category_id": 131210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -642,10 +642,10 @@
         "category_id": 131211,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -653,10 +653,10 @@
         "category_id": 131310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Paint Tools"
             }
         ]
     },
@@ -664,10 +664,10 @@
         "category_id": 131410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wallpaper"
             }
         ]
     },
@@ -675,10 +675,10 @@
         "category_id": 131510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plastic sheeting And Tarpuline"
             }
         ]
     },
@@ -686,10 +686,10 @@
         "category_id": 131610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Paints Tapes"
             }
         ]
     },
@@ -697,10 +697,10 @@
         "category_id": 131711,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Adhesive Others"
             }
         ]
     },
@@ -708,10 +708,10 @@
         "category_id": 131714,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -719,10 +719,10 @@
         "category_id": 131810,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Water Proofing"
             }
         ]
     },
@@ -730,10 +730,10 @@
         "category_id": 131910,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Wallpapers"
             }
         ]
     },
@@ -741,10 +741,10 @@
         "category_id": 132010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cleaner And Polish"
             }
         ]
     },
@@ -752,10 +752,10 @@
         "category_id": 132013,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Rust Remover"
             }
         ]
     },
@@ -763,16 +763,16 @@
         "category_id": 132110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Enamel"
             },
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Enamel"
             }
         ]
     },
@@ -780,10 +780,10 @@
         "category_id": 132210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Paint Thinner"
             }
         ]
     },
@@ -791,10 +791,10 @@
         "category_id": 132310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wood Coatings"
             }
         ]
     },
@@ -802,10 +802,10 @@
         "category_id": 132411,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Primer"
             }
         ]
     },
@@ -813,10 +813,10 @@
         "category_id": 132414,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Undercoats Putty Filler White Cement"
             }
         ]
     },
@@ -824,16 +824,16 @@
         "category_id": 132510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Spray Paint"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Spray Paint"
             }
         ]
     },
@@ -841,10 +841,10 @@
         "category_id": 132610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Machine And Universal Colorant"
             }
         ]
     },
@@ -852,10 +852,10 @@
         "category_id": 151010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -863,10 +863,10 @@
         "category_id": 151310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -874,10 +874,10 @@
         "category_id": 151410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -885,10 +885,10 @@
         "category_id": 151510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_code_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -896,16 +896,16 @@
         "category_id": 151610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Veneer"
             },
             {
-                "group": "specs",
                 "code": "ebo_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Variant Attributes"
             }
         ]
     },
@@ -913,10 +913,10 @@
         "category_id": 151710,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -924,10 +924,10 @@
         "category_id": 161010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Urinal And Indian Toilet"
             }
         ]
     },
@@ -935,10 +935,10 @@
         "category_id": 161014,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Toilet One Pc And Two Pcs"
             }
         ]
     },
@@ -946,10 +946,10 @@
         "category_id": 161017,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Toilet Seat Cover"
             }
         ]
     },
@@ -957,10 +957,10 @@
         "category_id": 161210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Wash Table Drop Wall Pedestal"
             }
         ]
     },
@@ -968,10 +968,10 @@
         "category_id": 161214,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Pedestal"
             }
         ]
     },
@@ -979,10 +979,10 @@
         "category_id": 161310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Kitc Bath Wall Deck Sink Bib Tp"
             }
         ]
     },
@@ -990,10 +990,10 @@
         "category_id": 161314,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Head Held Shower"
             }
         ]
     },
@@ -1001,10 +1001,10 @@
         "category_id": 161315,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Bath Faucets Bath Spout"
             }
         ]
     },
@@ -1012,10 +1012,10 @@
         "category_id": 161316,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Diverter And Shower Panel"
             }
         ]
     },
@@ -1023,10 +1023,10 @@
         "category_id": 161319,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "finish_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Angle Valve"
             }
         ]
     },
@@ -1034,10 +1034,10 @@
         "category_id": 161320,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Bath Fa 1 And Bath Acc 6"
             }
         ]
     },
@@ -1045,10 +1045,10 @@
         "category_id": 161416,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Bath Acc Soap Dispenser Tumbler Holder"
             }
         ]
     },
@@ -1056,10 +1056,21 @@
         "category_id": 161418,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Wall Bracket And Hose Pipe"
+            }
+        ]
+    },
+    {
+        "category_id": 161420,
+        "default_variant_attributes": [
+            {
+                "code": "no_of_prongs_md",
+                "position": 0,
+                "type": "ATTRIBUTES",
+                "group": "Bath Acc Robe Hook"
             }
         ]
     },
@@ -1067,10 +1078,10 @@
         "category_id": 161610,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Bath Cabinet Vanity Cabinet"
             }
         ]
     },
@@ -1078,10 +1089,10 @@
         "category_id": 161710,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Bath tub"
             }
         ]
     },
@@ -1089,16 +1100,16 @@
         "category_id": 171010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Led Filment Night Bulb"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Led Filment Night Bulb"
             }
         ]
     },
@@ -1106,16 +1117,16 @@
         "category_id": 171011,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Led Batten And Tubelight"
             },
             {
-                "group": "specs",
                 "code": "colour_temperature_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Led Batten And Tubelight"
             }
         ]
     },
@@ -1123,16 +1134,16 @@
         "category_id": 171110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Panel Light And Downlight"
             },
             {
-                "group": "specs",
                 "code": "colour_temperature_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Panel Light And Downlight"
             }
         ]
     },
@@ -1140,16 +1151,16 @@
         "category_id": 171112,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Ceiling Light Spot And Cob"
             },
             {
-                "group": "specs",
                 "code": "colour_temperature_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Ceiling Light Spot And Cob"
             }
         ]
     },
@@ -1157,10 +1168,10 @@
         "category_id": 171210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Ceiling Fan"
             }
         ]
     },
@@ -1168,10 +1179,10 @@
         "category_id": 171211,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Pedestal Table And Wall Fan"
             }
         ]
     },
@@ -1179,10 +1190,10 @@
         "category_id": 171213,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Fans Tower Fan"
             }
         ]
     },
@@ -1190,10 +1201,10 @@
         "category_id": 171215,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Fans Exhaust Fan"
             }
         ]
     },
@@ -1201,10 +1212,10 @@
         "category_id": 171312,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "colour_temperature_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Led Strip And Rop Light"
             }
         ]
     },
@@ -1212,10 +1223,10 @@
         "category_id": 171410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Outdoor Flood And Street Light"
             }
         ]
     },
@@ -1223,10 +1234,10 @@
         "category_id": 171510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_consumption_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Smart LED"
             }
         ]
     },
@@ -1234,16 +1245,16 @@
         "category_id": 181010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "battery_type",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Battery"
             },
             {
-                "group": "specs",
                 "code": "pack_of",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Battery"
             }
         ]
     },
@@ -1251,16 +1262,16 @@
         "category_id": 181110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Circuit Breakers Mcb Isolator"
             },
             {
-                "group": "specs",
                 "code": "rated_current",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Circuit Breakers Mcb Isolator"
             }
         ]
     },
@@ -1268,15 +1279,16 @@
         "category_id": 181111,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Circuit Breakers Rccb"
             },
             {
-                "group": "specs",
                 "code": "rated_current",
-                "position": 1
+                "position": 1,
+                "type": "ATTRIBUTES",
+                "group": "Circuit Breakers Rccb"
             }
         ]
     },
@@ -1284,22 +1296,22 @@
         "category_id": 181112,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "ACCL"
             },
             {
-                "group": "specs",
                 "code": "rated_current_main_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "ACCL"
             },
             {
-                "group": "specs",
                 "code": "rated_current_generator_md",
                 "position": 2,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "ACCL"
             }
         ]
     },
@@ -1307,16 +1319,16 @@
         "category_id": 181210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "no_of_ways_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Distribution Boards Distribution Board"
             },
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Distribution Boards Distribution Board"
             }
         ]
     },
@@ -1324,16 +1336,16 @@
         "category_id": 181211,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Db Encloser Box"
             },
             {
-                "group": "specs",
                 "code": "module_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Db Encloser Box"
             }
         ]
     },
@@ -1341,16 +1353,16 @@
         "category_id": 181212,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "poles_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Db Plug Socket Board"
             },
             {
-                "group": "specs",
                 "code": "rated_current",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Db Plug Socket Board"
             }
         ]
     },
@@ -1358,10 +1370,10 @@
         "category_id": 181310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Conduit Conduit Fitting"
             }
         ]
     },
@@ -1369,10 +1381,10 @@
         "category_id": 181311,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Conduit Conduit Pipes"
             }
         ]
     },
@@ -1380,10 +1392,10 @@
         "category_id": 181313,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "module_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Conduit Concealed Box"
             }
         ]
     },
@@ -1391,10 +1403,10 @@
         "category_id": 181410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Fan Regulator"
             }
         ]
     },
@@ -1402,16 +1414,16 @@
         "category_id": 181412,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "module_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Switch Board Plate "
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Switch Board Plate "
             }
         ]
     },
@@ -1419,10 +1431,10 @@
         "category_id": 181413,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "type_drop",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Class Switch Socket Lamp Holder"
             }
         ]
     },
@@ -1430,10 +1442,10 @@
         "category_id": 181414,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Electrical Socket "
             }
         ]
     },
@@ -1441,10 +1453,10 @@
         "category_id": 181415,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "socket_type",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Communication Socket"
             }
         ]
     },
@@ -1452,10 +1464,10 @@
         "category_id": 181418,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Switch Socket Blank Plate Cover"
             }
         ]
     },
@@ -1463,16 +1475,16 @@
         "category_id": 181419,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "rated_current",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Switch"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Switch"
             }
         ]
     },
@@ -1480,10 +1492,10 @@
         "category_id": 181420,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "module_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Switches Sockets Combined Box"
             }
         ]
     },
@@ -1491,10 +1503,10 @@
         "category_id": 181421,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "module_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Switches Sockets Modular Surface Box"
             }
         ]
     },
@@ -1502,10 +1514,10 @@
         "category_id": 181423,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "rated_current",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Sitch & Socket Plug Top"
             }
         ]
     },
@@ -1513,10 +1525,10 @@
         "category_id": 181512,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "product_type_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Electrical Acc Electrical Test Meter"
             }
         ]
     },
@@ -1524,16 +1536,16 @@
         "category_id": 181710,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "effective_against_class_of_fire_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Safety Fire Extinguisher"
             },
             {
-                "group": "specs",
                 "code": "extinguisher_medium_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Safety Fire Extinguisher"
             }
         ]
     },
@@ -1541,10 +1553,10 @@
         "category_id": 181711,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "type_of_detector_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Safety Smoke Detector"
             }
         ]
     },
@@ -1552,10 +1564,10 @@
         "category_id": 181810,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "capacity_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Powergt Inverter Battery"
             }
         ]
     },
@@ -1563,10 +1575,10 @@
         "category_id": 181811,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "rated_capacity_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Powergt Inverter"
             }
         ]
     },
@@ -1574,10 +1586,10 @@
         "category_id": 181812,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "stabilizing_range_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Powergt Stabilizer"
             }
         ]
     },
@@ -1585,10 +1597,10 @@
         "category_id": 181910,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Wire and Cable Low"
             }
         ]
     },
@@ -1596,10 +1608,10 @@
         "category_id": 181912,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "core",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wire Cable Cctv Cable"
             }
         ]
     },
@@ -1607,16 +1619,16 @@
         "category_id": 181913,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "radio_guage_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Coaxial TV Cable"
             },
             {
-                "group": "specs",
                 "code": "length_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Coaxial TV Cable"
             }
         ]
     },
@@ -1624,16 +1636,16 @@
         "category_id": 181914,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Wire Cable Lan Cable"
             },
             {
-                "group": "specs",
                 "code": "length_md",
                 "position": 1,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Wire Cable Lan Cable"
             }
         ]
     },
@@ -1641,10 +1653,10 @@
         "category_id": 181915,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "number_of_pairs_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Telephone Cable"
             }
         ]
     },
@@ -1652,10 +1664,10 @@
         "category_id": 182010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "tank_capacity_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Geyser"
             }
         ]
     },
@@ -1663,10 +1675,10 @@
         "category_id": 191010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Pipes"
             }
         ]
     },
@@ -1674,10 +1686,10 @@
         "category_id": 191110,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -1685,16 +1697,16 @@
         "category_id": 191210,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "capacity_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Tanks"
             },
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 1,
-                "type": "CORE_ATTRIBUTES"
+                "type": "CORE_ATTRIBUTES",
+                "group": "Core"
             }
         ]
     },
@@ -1702,10 +1714,10 @@
         "category_id": 191211,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "connection_size_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Tank Tank Accesory"
             }
         ]
     },
@@ -1713,10 +1725,10 @@
         "category_id": 191310,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "power_rating_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Pumps"
             }
         ]
     },
@@ -1724,10 +1736,10 @@
         "category_id": 191314,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "connection_size_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Pump Pump Accessory"
             }
         ]
     },
@@ -1735,10 +1747,10 @@
         "category_id": 191410,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "item_weight",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Cement Solvent"
             }
         ]
     },
@@ -1746,10 +1758,10 @@
         "category_id": 191411,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Sealant"
             }
         ]
     },
@@ -1757,10 +1769,10 @@
         "category_id": 191412,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Drain Cleaner"
             }
         ]
     },
@@ -1768,10 +1780,10 @@
         "category_id": 191413,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbning Tapes"
             }
         ]
     },
@@ -1779,10 +1791,10 @@
         "category_id": 191510,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "shape_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Acc Flange"
             }
         ]
     },
@@ -1790,10 +1802,10 @@
         "category_id": 191511,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbning Connection Pipe"
             }
         ]
     },
@@ -1801,10 +1813,10 @@
         "category_id": 191512,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Acc Nipple"
             }
         ]
     },
@@ -1812,10 +1824,10 @@
         "category_id": 191515,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "inlet_size_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Rainwater Filter"
             }
         ]
     },
@@ -1823,10 +1835,10 @@
         "category_id": 191516,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "meter_size_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Water Meter"
             }
         ]
     },
@@ -1834,10 +1846,10 @@
         "category_id": 191517,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Fastening Clamp"
             }
         ]
     },
@@ -1845,10 +1857,10 @@
         "category_id": 191518,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "length_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing Acc WM Inlet Pipe"
             }
         ]
     },
@@ -1856,10 +1868,10 @@
         "category_id": 191519,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "length_md",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Plumbing WM Outlet Pipe"
             }
         ]
     },
@@ -1867,10 +1879,10 @@
         "category_id": 201010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "False Ceiling Gypsum Board"
             }
         ]
     },
@@ -1878,10 +1890,10 @@
         "category_id": 201011,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Ceiling Tile"
             }
         ]
     },
@@ -1889,10 +1901,10 @@
         "category_id": 201013,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Jointing"
             }
         ]
     },
@@ -1900,10 +1912,10 @@
         "category_id": 201014,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "False Ceiling Finishing"
             }
         ]
     },
@@ -1911,10 +1923,10 @@
         "category_id": 211010,
         "default_variant_attributes": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Door"
             }
         ]
     }

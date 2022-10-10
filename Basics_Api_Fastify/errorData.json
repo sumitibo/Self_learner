@@ -4,12 +4,10 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             }
@@ -20,7 +18,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             }
@@ -31,17 +28,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -52,17 +46,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -80,13 +71,12 @@
         ],
         "writing": [
             {
-                "group": "specs",
                 "code": "ebo_size",
                 "position": 0,
-                "type": "ATTRIBUTES"
+                "type": "ATTRIBUTES",
+                "group": "Core"
             },
             {
-                "group": "specs",
                 "code": "ebo_color",
                 "position": 1
             }
@@ -97,17 +87,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -118,7 +105,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             }
@@ -129,17 +115,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -150,17 +133,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -171,17 +151,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -192,17 +169,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -213,17 +187,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -234,17 +205,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -255,30 +223,16 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
-            }
-        ]
-    },
-    {
-        "category_id": "161420",
-        "existing": [],
-        "writing": [
-            {
-                "group": "specs",
-                "code": "no_of_prongs_md",
-                "position": 0
             }
         ]
     },
@@ -287,17 +241,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -308,17 +259,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -329,17 +277,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -350,17 +295,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -371,17 +313,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -392,12 +331,10 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             }
@@ -415,17 +352,14 @@
         ],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -436,17 +370,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -457,17 +388,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -475,27 +403,17 @@
     },
     {
         "category_id": "171412",
-        "existing": [
-            {
-                "group": "Od Wall Gate Lamppost Light",
-                "code": "ebo_size",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
+        "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -506,17 +424,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -527,7 +442,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             }
@@ -538,69 +452,32 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
         ]
     },
     {
-        "category_id": "181111",
-        "existing": [
-            {
-                "group": "Circuit Breakers Rccb",
-                "code": "poles_md",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
-        "writing": [
-            {
-                "group": "specs",
-                "code": "poles_md",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            },
-            {
-                "group": "specs",
-                "code": "rated_current",
-                "position": 1
-            }
-        ]
-    },
-    {
         "category_id": "181312",
-        "existing": [
-            {
-                "group": "Core",
-                "code": "ebo_size",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
+        "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -608,27 +485,17 @@
     },
     {
         "category_id": "181315",
-        "existing": [
-            {
-                "group": "Core",
-                "code": "ebo_size",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
+        "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -639,17 +506,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -660,17 +524,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -681,17 +542,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -702,17 +560,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -723,17 +578,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -744,17 +596,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -765,17 +614,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -786,17 +632,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -807,17 +650,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -828,17 +668,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -856,17 +693,14 @@
         ],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -874,27 +708,17 @@
     },
     {
         "category_id": "181813",
-        "existing": [
-            {
-                "group": "Powergt Inverter Trolly",
-                "code": "ebo_size",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
+        "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -902,27 +726,17 @@
     },
     {
         "category_id": "182110",
-        "existing": [
-            {
-                "group": "Water Treatment",
-                "code": "ebo_size",
-                "position": 0,
-                "type": "ATTRIBUTES"
-            }
-        ],
+        "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -933,7 +747,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0
             }
@@ -944,7 +757,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0
             }
@@ -955,7 +767,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0
             }
@@ -966,7 +777,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0
             }
@@ -977,7 +787,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "brand_color",
                 "position": 0
             }
@@ -988,7 +797,6 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "capacity_md",
                 "position": 0
             }
@@ -999,17 +807,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -1020,17 +825,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -1041,17 +843,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
@@ -1062,17 +861,14 @@
         "existing": [],
         "writing": [
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 0
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 1
             },
             {
-                "group": "specs",
                 "code": "No Variant",
                 "position": 2
             }
