@@ -1,1 +1,56 @@
-[{"category_id":101011,"default_variant_attributes":[{"group":"specs","code":"ebo_size","position":0,"type":"CORE_ATTRIBUTES"},{"group":"specs","code":"ebo_tester1","position":1,"type":"CORE_ATTRIBUTES"}]},{"category_id":101012,"default_variant_attributes":[{"group":"specs","code":"ebo_size","position":0,"type":"CORE_ATTRIBUTES"},{"group":"specs","code":"ebo_tester1","position":1,"type":"CORE_ATTRIBUTES"},{"group":"specs","code":"color","position":2,"type":"CORE_ATTRIBUTES"}]},{"category_id":101013,"default_variant_attributes":[{"group":"specs","code":"ebo_size","position":0,"type":"CORE_ATTRIBUTES"},{"group":"specs","code":"ebo_tester1","position":1,"type":"CORE_ATTRIBUTES"}]}]
+[
+  {
+    "category_id": 101012,
+    "default_variant_attributes": [
+      {
+        "group": "specs",
+        "code": "PACK_OF",
+        "position": 0,
+        "type": "CORE_ATTRIBUTES"
+      },
+      { "group": "specs", "code": "SIZE", "position": 1, "type": "ATTRIBUTES" },
+      {
+        "group": "specs",
+        "code": "COLOR",
+        "position": 2,
+        "type": "CORE_ATTRIBUTES"
+      }
+    ]
+  },
+  {
+    "category_id": 101011,
+    "default_variant_attributes": [
+      {
+        "group": "specs",
+        "code": "PACK_OF",
+        "position": 0,
+        "type": "CORE_ATTRIBUTES"
+      },
+      {
+        "group": "specs",
+        "code": "COLOR",
+        "position": 1,
+        "type": "CORE_ATTRIBUTES"
+      },
+      { "group": "specs", "code": "SIZE", "position": 2, "type": "ATTRIBUTES" }
+    ]
+  },
+  {
+    "category_id": 101013,
+    "default_variant_attributes": [
+      { "group": "specs", "code": "SIZE", "position": 0, "type": "ATTRIBUTES" },
+      {
+        "group": "specs",
+        "code": "PACK_OF",
+        "position": 1,
+        "type": "CORE_ATTRIBUTES"
+      },
+      {
+        "group": "specs",
+        "code": "COLOR",
+        "position": 2,
+        "type": "CORE_ATTRIBUTES"
+      }
+    ]
+  }
+]

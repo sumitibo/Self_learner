@@ -1,6 +1,7 @@
 const xlsx = require("xlsx");
 const fs = require("fs");
 const axios = require("axios");
+const allData = [];
 
 function convertExcelFileToJsonUsingXlsx() {
   const file = xlsx.readFile("./Data.xlsx");
@@ -34,7 +35,6 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
         group: "specs",
         code: variant["Variant 1"],
         position: 0,
-        type: "CORE_ATTRIBUTES",
       });
     }
     if (variant["Variant 2"]) {
@@ -42,7 +42,6 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
         group: "specs",
         code: variant["Variant 2"],
         position: 1,
-        type: "CORE_ATTRIBUTES",
       });
     }
     if (variant["Variant 3"]) {
@@ -50,7 +49,6 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
         group: "specs",
         code: variant["Variant 3"],
         position: 2,
-        type: "CORE_ATTRIBUTES",
       });
     }
 
@@ -63,11 +61,6 @@ const manipulateDataAsPerExcelSheet = (parsedData) => {
     }
   });
 
-  fs.writeFile("data.json", JSON.stringify(manipulatedData), function (err) {
-    if (err) throw err;
-    console.log("EXCEL FILE CONVERTED AND MODIFIED SUCCESSFULLY");
-  });
-
   checkForDifferencesOfAttributes(manipulatedData);
 };
 
@@ -75,19 +68,35 @@ function checkForDifferencesOfAttributes(manipulatedData) {
   manipulatedData.forEach((item) => {
     axios
       .get(
-        `http://localhost:4444/v1/categories/merchandising/${item.category_id}?catalog_version=ONLINE&include_attribute_lovs=true`)
+        `http://localhost:4444/v1/categories/merchandising/${item.category_id}?catalog_version=ONLINE&include_attribute_lovs=true`
+      )
       .then(function (response) {
-        if (
-          response.data.default_variant_attributes.length !=
-          item.default_variant_attributes.length
-        ) {
-          console.log(
-            "EXISTING DATA - FOR CAT_ID",response.data.category_id,
-            response.data.default_variant_attributes,
-            "DATA GOING TO WRITE IN PROD",
-            item.default_variant_attributes
-          );
-        }
+        const getter = [];
+        response.data.default_variant_attributes.map((item) => {
+          getter.push(item.code, item.type);
+        });
+
+        item.default_variant_attributes.map((ele) => {
+          const found = getter.indexOf(ele.code);
+          if (found !== -1) {
+            ele.type = getter[found + 1];
+          } else {
+            console.log(
+              "EXISTING DATA - FOR CAT_ID",
+              response.data.category_id,
+              response.data.default_variant_attributes,
+              "DATA GOING TO WRITE IN PROD",
+              item.default_variant_attributes
+            );
+          }
+        });
+        // fs.appendFileSync("data.json", JSON.stringify(item));
+        allData.push(item);
+      })
+      .then(async function () {
+        fs.writeFile("data.json", JSON.stringify(allData), function (err) {
+          if (err) throw err;
+        });
       })
       .catch((err) => console.log(err));
   });

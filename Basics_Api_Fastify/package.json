@@ -9,7 +9,7 @@
   },
   "scripts": {
     "script1": "node convertExcelToJsonScript1",
-    "script2": "node compareExistingVariantAttributes"
+    "script2": "node sqlQueryToUpdateMerchandisingCategories"
   },
   "keywords": [],
   "author": "",
