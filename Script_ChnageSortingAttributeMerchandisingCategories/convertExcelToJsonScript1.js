@@ -5,7 +5,7 @@ const allData = [];
 const errorData = [];
 
 function convertExcelFileToJsonUsingXlsx() {
-  const file = xlsx.readFile("./Data.xlsx");
+  const file = xlsx.readFile("Data.xlsx");
 
   const sheetNames = file.SheetNames;
 
