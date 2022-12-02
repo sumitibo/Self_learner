@@ -1,0 +1,1555 @@
+[
+    {
+      "offer_id": "1000159046",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 6349.0
+    },
+    {
+      "offer_id": "1000159046",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 6179.0
+    },
+    {
+      "offer_id": "1000159379",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2599.0
+    },
+    {
+      "offer_id": "1000159379",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 2599.0
+    },
+    {
+      "offer_id": "1000159979",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 5399.0
+    },
+    {
+      "offer_id": "1000159979",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 5399.0
+    },
+    {
+      "offer_id": "1000160692",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 7389.0
+    },
+    {
+      "offer_id": "1000160692",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 7999.0
+    },
+    {
+      "offer_id": "1000161269",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2599.0
+    },
+    {
+      "offer_id": "1000161269",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 2799.0
+    },
+    {
+      "offer_id": "1000185864",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 189.0
+    },
+    {
+      "offer_id": "1000185864",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 189.0
+    },
+    {
+      "offer_id": "1000187788",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2499.0
+    },
+    {
+      "offer_id": "1000187788",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 2499.0
+    },
+    {
+      "offer_id": "1000187909",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 8999.0
+    },
+    {
+      "offer_id": "1000187909",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 8999.0
+    },
+    {
+      "offer_id": "1000188745",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2969.0
+    },
+    {
+      "offer_id": "1000188745",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 2899.0
+    },
+    {
+      "offer_id": "1000188801",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 4499.0
+    },
+    {
+      "offer_id": "1000188801",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 4499.0
+    },
+    {
+      "offer_id": "1000188867",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 11689.0
+    },
+    {
+      "offer_id": "1000188867",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 10999.0
+    },
+    {
+      "offer_id": "1000188989",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1999.0
+    },
+    {
+      "offer_id": "1000188989",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 1899.0
+    },
+    {
+      "offer_id": "1000189046",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1890.0
+    },
+    {
+      "offer_id": "1000189046",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 1890.0
+    },
+    {
+      "offer_id": "1000190157",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 9999.0
+    },
+    {
+      "offer_id": "1000190157",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 9999.0
+    },
+    {
+      "offer_id": "1000190513",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1999.0
+    },
+    {
+      "offer_id": "1000190513",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 1999.0
+    },
+    {
+      "offer_id": "1000190846",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 999.0
+    },
+    {
+      "offer_id": "1000190846",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 999.0
+    },
+    {
+      "offer_id": "1000190902",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 109.0
+    },
+    {
+      "offer_id": "1000190902",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 109.0
+    },
+    {
+      "offer_id": "1000191147",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 339.0
+    },
+    {
+      "offer_id": "1000191147",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 339.0
+    },
+    {
+      "offer_id": "1000191325",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 149.0
+    },
+    {
+      "offer_id": "1000191325",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 149.0
+    },
+    {
+      "offer_id": "1000191836",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 389.0
+    },
+    {
+      "offer_id": "1000191836",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 389.0
+    },
+    {
+      "offer_id": "1000192315",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 549.0
+    },
+    {
+      "offer_id": "1000192315",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 549.0
+    },
+    {
+      "offer_id": "1000192372",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1000192372",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1000192437",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 369.0
+    },
+    {
+      "offer_id": "1000192437",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 369.0
+    },
+    {
+      "offer_id": "1000192494",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 249.0
+    },
+    {
+      "offer_id": "1000192494",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 279.0
+    },
+    {
+      "offer_id": "1000193849",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 265.0
+    },
+    {
+      "offer_id": "1000193849",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 265.0
+    },
+    {
+      "offer_id": "1000193962",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 469.0
+    },
+    {
+      "offer_id": "1000193962",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 469.0
+    },
+    {
+      "offer_id": "1000195586",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 699.0
+    },
+    {
+      "offer_id": "1000195586",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 699.0
+    },
+    {
+      "offer_id": "1000214964",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 213.0
+    },
+    {
+      "offer_id": "1000214964",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 213.0
+    },
+    {
+      "offer_id": "1000215087",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 185.0
+    },
+    {
+      "offer_id": "1000215087",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 185.0
+    },
+    {
+      "offer_id": "1000215265",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 84.0
+    },
+    {
+      "offer_id": "1000215265",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 84.0
+    },
+    {
+      "offer_id": "1000215321",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 96.0
+    },
+    {
+      "offer_id": "1000215321",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 96.0
+    },
+    {
+      "offer_id": "1000215387",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 433.0
+    },
+    {
+      "offer_id": "1000215387",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 433.0
+    },
+    {
+      "offer_id": "1000215443",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 401.0
+    },
+    {
+      "offer_id": "1000215443",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 401.0
+    },
+    {
+      "offer_id": "1000215508",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 560.0
+    },
+    {
+      "offer_id": "1000215508",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 560.0
+    },
+    {
+      "offer_id": "1000215565",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 772.0
+    },
+    {
+      "offer_id": "1000215565",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 772.0
+    },
+    {
+      "offer_id": "1000215808",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 107.0
+    },
+    {
+      "offer_id": "1000215808",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 107.0
+    },
+    {
+      "offer_id": "1000215987",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 127.0
+    },
+    {
+      "offer_id": "1000215987",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 127.0
+    },
+    {
+      "offer_id": "1000216044",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 165.0
+    },
+    {
+      "offer_id": "1000216044",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 165.0
+    },
+    {
+      "offer_id": "1000216288",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 42.0
+    },
+    {
+      "offer_id": "1000216288",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 42.0
+    },
+    {
+      "offer_id": "1000216344",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 43.0
+    },
+    {
+      "offer_id": "1000216344",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 43.0
+    },
+    {
+      "offer_id": "1000216409",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 47.0
+    },
+    {
+      "offer_id": "1000216409",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 47.0
+    },
+    {
+      "offer_id": "1000216466",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 61.0
+    },
+    {
+      "offer_id": "1000216466",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 61.0
+    },
+    {
+      "offer_id": "1000216588",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 67.0
+    },
+    {
+      "offer_id": "1000216588",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 67.0
+    },
+    {
+      "offer_id": "1000216644",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 71.0
+    },
+    {
+      "offer_id": "1000216644",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 71.0
+    },
+    {
+      "offer_id": "1000216766",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 509.0
+    },
+    {
+      "offer_id": "1000216766",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 509.0
+    },
+    {
+      "offer_id": "1000216822",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 208.0
+    },
+    {
+      "offer_id": "1000216822",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 208.0
+    },
+    {
+      "offer_id": "1000216888",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 161.0
+    },
+    {
+      "offer_id": "1000216888",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 161.0
+    },
+    {
+      "offer_id": "1000216944",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 188.0
+    },
+    {
+      "offer_id": "1000216944",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 188.0
+    },
+    {
+      "offer_id": "1000217001",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 87.0
+    },
+    {
+      "offer_id": "1000217001",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 87.0
+    },
+    {
+      "offer_id": "1000217245",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 959.0
+    },
+    {
+      "offer_id": "1000217245",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 959.0
+    },
+    {
+      "offer_id": "1000217545",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 64.0
+    },
+    {
+      "offer_id": "1000217545",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 64.0
+    },
+    {
+      "offer_id": "1000217667",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 99.0
+    },
+    {
+      "offer_id": "1000217667",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 99.0
+    },
+    {
+      "offer_id": "1000217723",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 107.0
+    },
+    {
+      "offer_id": "1000217723",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 107.0
+    },
+    {
+      "offer_id": "1000217789",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 189.0
+    },
+    {
+      "offer_id": "1000217789",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 189.0
+    },
+    {
+      "offer_id": "1000217901",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 212.0
+    },
+    {
+      "offer_id": "1000217901",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 212.0
+    },
+    {
+      "offer_id": "1000217967",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 40.0
+    },
+    {
+      "offer_id": "1000217967",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 40.0
+    },
+    {
+      "offer_id": "1000218024",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 211.0
+    },
+    {
+      "offer_id": "1000218024",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 211.0
+    },
+    {
+      "offer_id": "1000218081",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 249.0
+    },
+    {
+      "offer_id": "1000218081",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 249.0
+    },
+    {
+      "offer_id": "1000218202",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 372.0
+    },
+    {
+      "offer_id": "1000218202",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 372.0
+    },
+    {
+      "offer_id": "1000218268",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 309.0
+    },
+    {
+      "offer_id": "1000218268",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 309.0
+    },
+    {
+      "offer_id": "1000218324",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 70.0
+    },
+    {
+      "offer_id": "1000218324",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 70.0
+    },
+    {
+      "offer_id": "1000218381",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 79.0
+    },
+    {
+      "offer_id": "1000218381",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 79.0
+    },
+    {
+      "offer_id": "1000218446",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 85.0
+    },
+    {
+      "offer_id": "1000218446",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 85.0
+    },
+    {
+      "offer_id": "1000218568",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 59.0
+    },
+    {
+      "offer_id": "1000218568",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 59.0
+    },
+    {
+      "offer_id": "1000218624",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 267.0
+    },
+    {
+      "offer_id": "1000218624",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 267.0
+    },
+    {
+      "offer_id": "1000218681",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 289.0
+    },
+    {
+      "offer_id": "1000218681",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 289.0
+    },
+    {
+      "offer_id": "1000218746",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 185.0
+    },
+    {
+      "offer_id": "1000218746",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 185.0
+    },
+    {
+      "offer_id": "1000218924",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 194.0
+    },
+    {
+      "offer_id": "1000218924",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 194.0
+    },
+    {
+      "offer_id": "1000219047",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 45.0
+    },
+    {
+      "offer_id": "1000219047",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 45.0
+    },
+    {
+      "offer_id": "1000219103",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 305.0
+    },
+    {
+      "offer_id": "1000219103",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 305.0
+    },
+    {
+      "offer_id": "1000219225",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 413.0
+    },
+    {
+      "offer_id": "1000219225",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 413.0
+    },
+    {
+      "offer_id": "1000219403",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 225.0
+    },
+    {
+      "offer_id": "1000219403",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 225.0
+    },
+    {
+      "offer_id": "1000219647",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 93.0
+    },
+    {
+      "offer_id": "1000219647",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 93.0
+    },
+    {
+      "offer_id": "1000219703",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 420.0
+    },
+    {
+      "offer_id": "1000219703",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 420.0
+    },
+    {
+      "offer_id": "1000487382",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 14499.0
+    },
+    {
+      "offer_id": "1000487382",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 13699.0
+    },
+    {
+      "offer_id": "1000689886",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 7049.0
+    },
+    {
+      "offer_id": "1000689886",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 7049.0
+    },
+    {
+      "offer_id": "1000690275",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 13499.0
+    },
+    {
+      "offer_id": "1000690275",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 13449.0
+    },
+    {
+      "offer_id": "1000696183",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 4339.0
+    },
+    {
+      "offer_id": "1000696183",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 4339.0
+    },
+    {
+      "offer_id": "1006684602",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 13499.0
+    },
+    {
+      "offer_id": "1006684602",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 13199.0
+    },
+    {
+      "offer_id": "1016125743",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2199.0
+    },
+    {
+      "offer_id": "1016125743",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 2199.0
+    },
+    {
+      "offer_id": "1016125808",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 249.0
+    },
+    {
+      "offer_id": "1016125808",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 219.0
+    },
+    {
+      "offer_id": "1016125865",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 269.0
+    },
+    {
+      "offer_id": "1016125865",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 249.0
+    },
+    {
+      "offer_id": "1016125921",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1699.0
+    },
+    {
+      "offer_id": "1016125921",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 1699.0
+    },
+    {
+      "offer_id": "1016127391",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1016127391",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1016127456",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1016127456",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 499.0
+    },
+    {
+      "offer_id": "1016142784",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 169.0
+    },
+    {
+      "offer_id": "1016142784",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 169.0
+    },
+    {
+      "offer_id": "1016142849",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 175.0
+    },
+    {
+      "offer_id": "1016142849",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 175.0
+    },
+    {
+      "offer_id": "1016142905",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 179.0
+    },
+    {
+      "offer_id": "1016142905",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 179.0
+    },
+    {
+      "offer_id": "1016159703",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1099.0
+    },
+    {
+      "offer_id": "1016159703",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 1099.0
+    },
+    {
+      "offer_id": "1016159769",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 465.0
+    },
+    {
+      "offer_id": "1016159769",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 465.0
+    },
+    {
+      "offer_id": "1016159825",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 759.0
+    },
+    {
+      "offer_id": "1016159825",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 759.0
+    },
+    {
+      "offer_id": "1016192762",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 30.0
+    },
+    {
+      "offer_id": "1016192762",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 35.0
+    },
+    {
+      "offer_id": "1016798132",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 119.0
+    },
+    {
+      "offer_id": "1016798132",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 119.0
+    },
+    {
+      "offer_id": "1016803837",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 129.0
+    },
+    {
+      "offer_id": "1016803837",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "CHENNAI",
+      "min_quantity": 1.0,
+      "price_without_gst": 109.0
+    },
+    {
+      "offer_id": "1000141582",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 2780.0
+    },
+    {
+      "offer_id": "1000141703",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 3280.0
+    },
+    {
+      "offer_id": "1000142159",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 980.0
+    },
+    {
+      "offer_id": "1000142215",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1180.0
+    },
+    {
+      "offer_id": "1000142272",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1370.0
+    },
+    {
+      "offer_id": "1000143449",
+      "price_group": "B2C",
+      "price_type": "SLAB",
+      "customer_zone": "DEFAULT",
+      "min_quantity": 1.0,
+      "price_without_gst": 1910.0
+    }
+  ]
+  
