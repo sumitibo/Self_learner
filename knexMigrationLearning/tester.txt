@@ -1,0 +1,453 @@
+const reqBody = [
+    {
+        "offer_id": "tiles",
+        "price_group": "B2C",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 10,
+        "price": {
+            "cent_amount": 500,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+    {
+        "offer_id": "tiles",
+        "price_group": "B2C",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 20,
+        "price": {
+            "cent_amount": 490,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+     {
+        "offer_id": "tiles",
+        "price_group": "B2P",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 10,
+        "price": {
+            "cent_amount": 500,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+    {
+        "offer_id": "tiles",
+        "price_group": "B2P",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 20,
+        "price": {
+            "cent_amount": 490,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+    {
+        "offer_id": "ledBulb",
+        "price_group": "B2C",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 10,
+        "price": {
+            "cent_amount": 150,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+    {
+        "offer_id": "ledBulb",
+        "price_group": "B2C",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 20,
+        "price": {
+            "cent_amount": 130,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+     {
+        "offer_id": "ledBulb",
+        "price_group": "B2P",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 10,
+        "price": {
+            "cent_amount": 140,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    },
+    {
+        "offer_id": "ledBulb",
+        "price_group": "B2P",
+        "price_zone": "DEFAULT",
+        "tier_quantity": 20,
+        "price": {
+            "cent_amount": 110,
+            "fraction": 100,
+            "currency": "INR"
+        },
+        "tax_included_price": true
+    }
+]
+
+
+
+1st - get unique offers list['tiles', 'ledBulb']
+
+2nd- offerMap - maps all based on uniqueOfferIds {
+    tiles: [
+      {
+        offer_id: "tiles",
+        price_group: "B2C",
+        price_zone: "DEFAULT",
+        tier_quantity: 10,
+        price: {
+          cent_amount: 500,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "tiles",
+        price_group: "B2C",
+        price_zone: "DEFAULT",
+        tier_quantity: 20,
+        price: {
+          cent_amount: 490,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "tiles",
+        price_group: "B2P",
+        price_zone: "DEFAULT",
+        tier_quantity: 10,
+        price: {
+          cent_amount: 500,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "tiles",
+        price_group: "B2P",
+        price_zone: "DEFAULT",
+        tier_quantity: 20,
+        price: {
+          cent_amount: 490,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+    ],
+    ledBulb: [
+      {
+        offer_id: "ledBulb",
+        price_group: "B2C",
+        price_zone: "DEFAULT",
+        tier_quantity: 10,
+        price: {
+          cent_amount: 150,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "ledBulb",
+        price_group: "B2C",
+        price_zone: "DEFAULT",
+        tier_quantity: 20,
+        price: {
+          cent_amount: 130,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "ledBulb",
+        price_group: "B2P",
+        price_zone: "DEFAULT",
+        tier_quantity: 10,
+        price: {
+          cent_amount: 140,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+      {
+        offer_id: "ledBulb",
+        price_group: "B2P",
+        price_zone: "DEFAULT",
+        tier_quantity: 20,
+        price: {
+          cent_amount: 110,
+          fraction: 100,
+          currency: "INR",
+        },
+        tax_included_price: true,
+      },
+    ],
+  }
+
+3rd - GET sellingPriceFallbackConfigList from DB if first tym or 2nd tym from fastify memCache - [
+    {
+      next: {
+        next: null,
+        type: "PRICE_GROUP",
+        value: "B2C",
+      },
+      type: "PRICE_ZONE",
+      value: "SELF",
+    },
+    {
+      next: {
+        next: null,
+        type: "PRICE_GROUP",
+        value: "B2C",
+      },
+      type: "PRICE_ZONE",
+      value: "DEFAULT",
+    },
+  ]
+
+4th - get PRICE_GROUP and PRICE_ZONE -, price_zone = [
+  "DEFAULT",
+  "CHENNAI",
+] PRICE_GROUP =[
+  "B2B",
+  "B2C",
+  "B2P",
+] 
+
+5th - 5.1 - now loop on uniqueOfferIds  which was 2 only [tiles , ledBulb]
+      5.2 - now get the mappedData from step-2 offerMap using the 1st offer_ids 
+            ex - offerMap[offer_id] = offerMap[tiles] 
+            result =   [
+                    {
+                      offer_id: "tiles",
+                      price_group: "B2C",
+                      price_zone: "DEFAULT",
+                      tier_quantity: 10,
+                      price: {
+                        cent_amount: 500,
+                        fraction: 100,
+                        currency: "INR",
+                      },
+                      tax_included_price: true,
+                    },
+                    {
+                      offer_id: "tiles",
+                      price_group: "B2C",
+                      price_zone: "DEFAULT",
+                      tier_quantity: 20,
+                      price: {
+                        cent_amount: 490,
+                        fraction: 100,
+                        currency: "INR",
+                      },
+                      tax_included_price: true,
+                    },
+                    {
+                      offer_id: "tiles",
+                      price_group: "B2P",
+                      price_zone: "DEFAULT",
+                      tier_quantity: 10,
+                      price: {
+                        cent_amount: 500,
+                        fraction: 100,
+                        currency: "INR",
+                      },
+                      tax_included_price: true,
+                    },
+                    {
+                      offer_id: "tiles",
+                      price_group: "B2P",
+                      price_zone: "DEFAULT",
+                      tier_quantity: 20,
+                      price: {
+                        cent_amount: 490,
+                        fraction: 100,
+                        currency: "INR",
+                      },
+                      tax_included_price: true,
+                    },
+                  ]
+      5.3  now get processedInputPrices - so the logic seems to have , it will always create for one offerId 
+      multiple MRPS like - one offerId , tier_quantity - 10 , price zone is DEFAULT and group is B2C;
+
+      then it will create for B2P and B2B  for all priceZones like;
+      B2B - DEFAULT
+      B2C - DEFAULT
+      B2P - DEFAULT
+      B2B - CHENNAI
+      B2C - CHENNAI
+      B2P - CHENNAI 
+
+      now in this case - there are two prices in body for same offerId and same pricegroup and same pricezone
+
+      so the transformed inputforProcessedPriceList = [
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 150,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "DEFAULT",
+                                                          price_group: "B2B",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 10,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 130,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "DEFAULT",
+                                                          price_group: "B2B",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 20,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price_group: "B2C",
+                                                          price_zone: "DEFAULT",
+                                                          tier_quantity: 10,
+                                                          price: {
+                                                            cent_amount: 150,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          tax_included_price: true,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price_group: "B2C",
+                                                          price_zone: "DEFAULT",
+                                                          tier_quantity: 20,
+                                                          price: {
+                                                            cent_amount: 130,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          tax_included_price: true,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price_group: "B2P",
+                                                          price_zone: "DEFAULT",
+                                                          tier_quantity: 10,
+                                                          price: {
+                                                            cent_amount: 140,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          tax_included_price: true,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price_group: "B2P",
+                                                          price_zone: "DEFAULT",
+                                                          tier_quantity: 20,
+                                                          price: {
+                                                            cent_amount: 110,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          tax_included_price: true,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 150,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2B",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 10,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 130,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2B",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 20,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 150,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2C",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 10,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 130,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2C",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 20,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 150,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2P",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 10,
+                                                        },
+                                                        {
+                                                          offer_id: "ledBulb",
+                                                          price: {
+                                                            cent_amount: 130,
+                                                            fraction: 100,
+                                                            currency: "INR",
+                                                          },
+                                                          price_zone: "CHENNAI",
+                                                          price_group: "B2P",
+                                                          tax_included_price: true,
+                                                          tier_quantity: 20,
+                                                        },
+                                                      ]
+      for the second offer_id which is ledBulb, and the missing prices for zones and groups was taken from B2C not from B2P,
+      where B2P was less amount for that tier_quantity still we got higher price which was in B2C.,because in config we have mentioned to take from B2C.
+
+
+      

@@ -1,0 +1,25 @@
+{
+  "name": "knexmigrationlearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "knex": "node -r dotenv/config ./node_modules/.bin/knex",
+    "migrate:make": "npm run knex -- migrate:make --knexfile ./config/knexConfig.js",
+    "migrate": "npm run knex -- migrate:latest --knexfile ./config/knexConfig.js",
+    "migrate:down": "npm run knex -- migrate:down --knexfile ./config/knexConfig.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-plugin": "^4.3.0",
+    "knex": "^2.3.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
